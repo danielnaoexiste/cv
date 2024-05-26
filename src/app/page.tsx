@@ -133,7 +133,7 @@ export default function Page() {
                         {work.badges.map((badge) => (
                           <Badge
                             variant="secondary"
-                            className="align-middle text-xs"
+                            className="whitespace-break-spaces align-middle text-xs"
                             key={badge}
                           >
                             {badge}
