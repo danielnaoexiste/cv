@@ -1,15 +1,14 @@
 import { GitHubIcon, LinkedInIcon } from "@/components/icons";
 
 export const RESUME_DATA_PT = {
-  name: "Dan Gazzaneo",
-  initials: "DG",
+  name: "Daniel Gazzaneo Denardo",
+  initials: "Dan",
   location: "Bragança Paulista, São Paulo, Brasil",
   locationLink: "https://www.google.com/maps/place/Bragança Paulista",
   summary:
     "Desenvolvedor Front-end Sênior com mais de 4 anos de experiência, especializado em React e Vue. Experiência em sistemas de controle de versão, desenvolvimento de design systems, arquitetura de micro-frontends, testes automatizados, programação orientada a objetos e metodologias ágeis.",
   about:
     "Especialista em Front-end apaixonado por criar experiências de usuário incríveis.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/40382473?v=4",
   personalWebsiteUrl: "https://dangazzaneo.dev",
   contact: {
     email: "danieldenardo1@gmail.com",
