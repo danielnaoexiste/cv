@@ -101,12 +101,17 @@ export default function Page() {
             </div>
           </div>
 
-          <Avatar className="size-28">
-            <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} />
-            <AvatarFallback className="text-2xl">
-              {RESUME_DATA.initials}
-            </AvatarFallback>
-          </Avatar>
+          {"avatarUrl" in RESUME_DATA && (
+            <Avatar className="size-28">
+              <AvatarImage
+                alt={RESUME_DATA.name}
+                src={RESUME_DATA.avatarUrl as string}
+              />
+              <AvatarFallback className="text-2xl">
+                {RESUME_DATA.initials}
+              </AvatarFallback>
+            </Avatar>
+          )}
         </div>
         <Section>
           <h2 className="text-xl font-bold">About</h2>
