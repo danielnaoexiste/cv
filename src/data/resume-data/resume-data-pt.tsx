@@ -5,13 +5,15 @@ export const RESUME_DATA_PT = {
   initials: "Dan",
   location: "Bragança Paulista, São Paulo, Brasil",
   locationLink: "https://www.google.com/maps/place/Bragança Paulista",
+  avatarUrl: "/me.jpg",
   summary:
-    "Desenvolvedor Front-end Sênior com mais de 4 anos de experiência, especializado em React e Vue. Experiência em sistemas de controle de versão, desenvolvimento de design systems, arquitetura de micro-frontends, testes automatizados, programação orientada a objetos e metodologias ágeis.",
+    "Desenvolvedor Front-end Sênior com vasta experiência entregando múltiplos projetos internacionais, especializado em React/Next e Vue. Experiência em sistemas de controle de versão, desenvolvimento de design systems, arquitetura de micro-frontends, testes automatizados, programação orientada a objetos e metodologias ágeis.",
   about:
     "Especialista em Front-end apaixonado por criar experiências de usuário incríveis.",
   personalWebsiteUrl: "https://dangazzaneo.dev",
   contact: {
     email: "danieldenardo1@gmail.com",
+    tel: "+55 11 99577-9119",
     social: [
       {
         name: "GitHub",
@@ -83,11 +85,12 @@ export const RESUME_DATA_PT = {
     "JavaScript",
     "TypeScript",
     "React/Next.js",
-    "React Native",
+    "React Native/Expo",
     "VueJS",
     "Node.js",
     "Nest.js",
     "GraphQL",
+    "CI/CD",
   ],
   languages: ["Portuguese (Nativo)", "English (C2 Proficiente)"],
   projects: [
