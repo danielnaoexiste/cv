@@ -6,6 +6,14 @@ export const RESUME_DATA_EN = {
   location: "Bragança Paulista, São Paulo, Brazil",
   locationLink: "https://www.google.com/maps/place/Bragança Paulista",
   avatarUrl: "/me.jpg",
+  titles: {
+    about: "About",
+    work: "Work Experience",
+    education: "Education",
+    skills: "Skills",
+    languages: "Languages",
+    projects: "Projects",
+  },
   about:
     "Front-end specialist passionate about creating beautiful user experiences.",
   summary:

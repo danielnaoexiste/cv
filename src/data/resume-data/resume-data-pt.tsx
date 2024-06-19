@@ -1,4 +1,5 @@
 import { GitHubIcon, LinkedInIcon } from "@/components/icons";
+import { Languages } from "lucide-react";
 
 export const RESUME_DATA_PT = {
   name: "Daniel Gazzaneo Denardo",
@@ -6,6 +7,14 @@ export const RESUME_DATA_PT = {
   location: "Bragança Paulista, São Paulo, Brasil",
   locationLink: "https://www.google.com/maps/place/Bragança Paulista",
   avatarUrl: "/me.jpg",
+  titles: {
+    about: "Sobre",
+    work: "Experiência Profissional",
+    education: "Formação",
+    skills: "Habilidades",
+    languages: "Idiomas",
+    projects: "Projetos",
+  },
   summary:
     "Desenvolvedor Front-end Sênior com vasta experiência entregando múltiplos projetos internacionais, especializado em React/Next e Vue. Experiência em sistemas de controle de versão, desenvolvimento de design systems, arquitetura de micro-frontends, testes automatizados, programação orientada a objetos e metodologias ágeis.",
   about:
