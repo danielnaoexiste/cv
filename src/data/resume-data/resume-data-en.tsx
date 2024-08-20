@@ -17,7 +17,7 @@ export const RESUME_DATA_EN = {
   about:
     "Front-end specialist passionate about creating beautiful user experiences.",
   summary:
-    "Senior Front-end Developer with extensive experience delivering dozens of international projects, specialized in React/Next and Vue. Experience in version control systems, design systems development, micro-frontend architecture, automated tests, object-oriented programming and agile methodologies.",
+    "Senior Front-end Developer / Software Architect with extensive experience delivering international projects, specialized in React/Next. Experienced in version control systems, design systems development, micro-frontend architecture, automated tests, object-oriented programming and agile methodologies.",
   personalWebsiteUrl: "https://dangazzaneo.dev",
   contact: {
     email: "danieldenardo1@gmail.com",

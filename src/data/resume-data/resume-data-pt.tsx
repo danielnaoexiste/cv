@@ -16,7 +16,7 @@ export const RESUME_DATA_PT = {
     projects: "Projetos",
   },
   summary:
-    "Desenvolvedor Front-end Sênior com vasta experiência entregando múltiplos projetos internacionais, especializado em React/Next e Vue. Experiência em sistemas de controle de versão, desenvolvimento de design systems, arquitetura de micro-frontends, testes automatizados, programação orientada a objetos e metodologias ágeis.",
+    "Desenvolvedor Front-end Sênior / Arquiteto de Software com vasta experiência entregando projetos internacionais, especializado em React/Next. Experiência em sistemas de controle de versão, desenvolvimento de design systems, arquitetura de micro-frontends, testes automatizados, programação orientada a objetos e metodologias ágeis.",
   about:
     "Especialista em Front-end apaixonado por criar experiências de usuário incríveis.",
   personalWebsiteUrl: "https://dangazzaneo.dev",
