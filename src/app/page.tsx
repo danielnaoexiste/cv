@@ -1,13 +1,13 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Card, CardHeader, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
 import { CommandMenu } from "@/components/command-menu";
-import { Metadata } from "next";
-import { Section } from "@/components/ui/section";
-import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { RESUME_DATA_EN, RESUME_DATA_PT } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader } from "@/components/ui/card";
+import { Section } from "@/components/ui/section";
+import { RESUME_DATA_EN, RESUME_DATA_PT } from "@/data/resume-data";
+import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
+import { Metadata } from "next";
 import { headers } from "next/headers";
 export const metadata: Metadata = {
   title: `${RESUME_DATA_EN.name} | ${RESUME_DATA_EN.about}`,
@@ -211,6 +211,7 @@ export default function Page() {
                 <ProjectCard
                   key={project.title}
                   title={project.title}
+                  date={project.date}
                   description={project.description}
                   tags={project.techStack}
                   link={"link" in project ? project.link.href : undefined}

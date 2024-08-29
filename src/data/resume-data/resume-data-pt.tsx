@@ -1,5 +1,4 @@
 import { GitHubIcon, LinkedInIcon } from "@/components/icons";
-import { Languages } from "lucide-react";
 
 export const RESUME_DATA_PT = {
   name: "Daniel Gazzaneo Denardo",
@@ -95,6 +94,8 @@ export const RESUME_DATA_PT = {
     "TypeScript",
     "React/Next.js",
     "React Native/Expo",
+    "Arquitetura de Software",
+    "Micro-frontends",
     "VueJS",
     "Node.js",
     "Nest.js",
@@ -104,7 +105,97 @@ export const RESUME_DATA_PT = {
   languages: ["Portuguese (Nativo)", "English (C2 Proficiente)"],
   projects: [
     {
+      title: "NDA",
+      date: "2023/2024",
+      techStack: [
+        "CI&T (Domino's Pizza)",
+        "React",
+        "Typescript",
+        "Module Federation",
+      ],
+      description: "Projeto NDA para Domino's Pizza.",
+    },
+    {
+      title: "Thrive360",
+      date: "2023",
+      techStack: ["CI&T (Thrive360)", "React Native", "Typescript"],
+      description: "Aplicativo de saúde mental / bem-estar.",
+
+      link: {
+        label: "Thrive360",
+        href: "https://thrive360.com/",
+      },
+    },
+    {
+      title: "ZettaCloud Admin",
+      date: "2023",
+      techStack: ["CI&T (RCS)", "React", "Typescript"],
+      description: "Migração de uma aplicação legado em pug.js para React.",
+    },
+    {
+      title: "Ágora Cadastro",
+      date: "2022",
+      techStack: ["CI&T (Ágora)", "React", "Redux", "Grafana", "Dynatrace"],
+      description:
+        "Estabilização e modernização da plataforma de Cadastro da Ágora.",
+    },
+    {
+      title: "Customer Portal",
+      date: "2022",
+      techStack: ["CI&T (RHIM)", "React", ".NET Core"],
+      description:
+        "Desenvolvimento Fullstack de um portal para clientes de uma empresa de refratários.",
+    },
+    {
+      title: "BEES Migration",
+      date: "2022",
+      techStack: ["CI&T (ABI)", "Next.js", "Single SPA", "Module Federation"],
+      description:
+        "Migração da plataforma web BEES da ABI para Coreia do Sul e Reino Unido.",
+
+      link: {
+        label: "Bees KR",
+        href: "https://mybees.co.kr",
+      },
+    },
+    {
+      title: "Raimundo",
+      date: "2021/2022",
+      techStack: ["Aiqfome", "React", "Module Federation"],
+      description:
+        "Dashboard e gerenciador de ações interno para franqueados e empregados.",
+
+      link: {
+        label: "Raimundo",
+        href: "https://raimundo.aiqfome.com",
+      },
+    },
+    {
+      title: "All iN Training",
+      date: "2020 - 2021",
+      techStack: ["Hivelabs", "VueJS", "Vuetify"],
+      description:
+        "Plataforma de Treinamento virtual feita em Vue para All iN.",
+
+      link: {
+        label: "Training",
+        href: "https://treinamento.allin.com.br",
+      },
+    },
+    {
+      title: "ACIEI Portal",
+      date: "2020",
+      techStack: ["Hivelabs", "jQuery"],
+      description: "Dashboard interno da ACIEI, feito com jQuery.",
+
+      link: {
+        label: "Aciei",
+        href: "https://portal.aciei.com.br/",
+      },
+    },
+    {
       title: "Froggy",
+      date: "2023/2024",
       techStack: [
         "Side Project",
         "TypeScript",
@@ -122,6 +213,8 @@ export const RESUME_DATA_PT = {
     },
     {
       title: "Surigu UI",
+      date: "2023",
+
       techStack: ["Side Project", "React", "TypeScript"],
       description: "Biblioteca de componentes React feita com styled-system.",
 
@@ -131,17 +224,9 @@ export const RESUME_DATA_PT = {
       },
     },
     {
-      title: "Beeper",
-      techStack: ["Side Project", "React Native", "NodeJS"],
-      description: "Aplicativo React Native de anotações em nuvem.",
-
-      link: {
-        label: "Beeper",
-        href: "https://github.com/danielnaoexiste/beeper-client",
-      },
-    },
-    {
       title: "Portfolio95",
+      date: "2023",
+
       techStack: ["Side Project", "React", "Typescript"],
       description:
         "Portfolio antigo feito baseado no Windows 95. Veja meus projetos e jogos, curriculo e informações sobre minha carreira.",
@@ -153,6 +238,8 @@ export const RESUME_DATA_PT = {
     },
     {
       title: "Yeop Engine",
+      date: "2021",
+
       techStack: ["Side Project", "Python", "Lua", "C++", "SDL2", "Dear ImGui"],
       description:
         "Engine de desenvolvimento e editor de jogos 2D feito em C++/SDL2, com uma CLI feita em Python.",
@@ -163,38 +250,19 @@ export const RESUME_DATA_PT = {
       },
     },
     {
-      title: "Raimundo",
-      techStack: ["Professional Project", "React", "Module Federation"],
-      description:
-        "Dashboard e gerenciador de ações interno para franqueados e empregados. Desenvolvimento de design-system.",
-      link: {
-        label: "Raimundo",
-        href: "https://raimundo.aiqfome.com",
-      },
-    },
-    {
-      title: "Treinamento All iN",
-      techStack: ["Professional Project", "VueJS", "Vuetify"],
-      description:
-        "Plataforma de Treinamento virtual feita em Vue para All iN.",
+      title: "Beeper",
+      date: "2020",
+      techStack: ["Side Project", "React Native", "NodeJS"],
+      description: "Aplicativo React Native de anotações em nuvem.",
 
       link: {
-        label: "Training",
-        href: "https://treinamento.allin.com.br",
-      },
-    },
-    {
-      title: "Portal ACIEI",
-      techStack: ["Professional Project", "jQuery"],
-      description: "Dashboard interno da ACIEI, feito com jQuery.",
-
-      link: {
-        label: "Aciei",
-        href: "https://portal.aciei.com.br/",
+        label: "Beeper",
+        href: "https://github.com/danielnaoexiste/beeper-client",
       },
     },
     {
       title: "Awaken the Dev-U",
+      date: "2020",
       techStack: ["Volunteer Project", "Unity"],
       description:
         'Jogo choose-your-adventure mobile feito para "Integra Unifei 2020".',
@@ -205,7 +273,20 @@ export const RESUME_DATA_PT = {
       },
     },
     {
+      title: "Torrato",
+      date: "2020",
+      techStack: ["Volunteer Project", "Godot"],
+      description:
+        "O mouse ficou preso dentro do forno e está muito quente! Feito em 24 horas para Dev-U Jam!",
+
+      link: {
+        label: "Torrato",
+        href: "https://bitsdev.itch.io/torrato",
+      },
+    },
+    {
       title: "Cavescape",
+      date: "2019",
       techStack: ["Volunteer Project", "Godot"],
       description:
         'Jogo de plataforma metroidvania 2-bit feito para a Community Game Jam 2019, com o tema "O jogo mente".',
@@ -217,6 +298,7 @@ export const RESUME_DATA_PT = {
     },
     {
       title: "Spacial Dog",
+      date: "2018",
       techStack: ["Volunteer Project", "Unity"],
       description:
         'Protótipo feito em 72 horas para a Ludum Dare 42, com o tema "Running out of Space".',
@@ -224,17 +306,6 @@ export const RESUME_DATA_PT = {
       link: {
         label: "Spacial",
         href: "https://bitsdev.itch.io/spacial-dog",
-      },
-    },
-    {
-      title: "Torrato",
-      techStack: ["Volunteer Project", "Godot"],
-      description:
-        "O mouse ficou preso dentro do forno e está muito quente! Feito em 24 horas para Dev-U Jam!",
-
-      link: {
-        label: "Torrato",
-        href: "https://bitsdev.itch.io/torrato",
       },
     },
   ],

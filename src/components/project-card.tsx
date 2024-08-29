@@ -1,20 +1,21 @@
+import { Badge } from "./ui/badge";
 import {
   Card,
-  CardHeader,
   CardContent,
   CardDescription,
+  CardHeader,
   CardTitle,
 } from "./ui/card";
-import { Badge } from "./ui/badge";
 
 interface Props {
   title: string;
+  date?: string | undefined;
   description: string;
   tags: readonly string[];
   link?: string;
 }
 
-export function ProjectCard({ title, description, tags, link }: Props) {
+export function ProjectCard({ title, date, description, tags, link }: Props) {
   return (
     <Card className="flex flex-col overflow-hidden border border-muted p-3">
       <CardHeader className="">
@@ -33,9 +34,13 @@ export function ProjectCard({ title, description, tags, link }: Props) {
               title
             )}
           </CardTitle>
+
           <div className="hidden font-mono text-xs underline print:visible">
             {link?.replace("https://", "").replace("www.", "").replace("/", "")}
           </div>
+
+          <div className="font-mono text-xs">{date}</div>
+
           <CardDescription className="font-mono text-xs">
             {description}
           </CardDescription>
