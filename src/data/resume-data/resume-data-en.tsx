@@ -142,7 +142,7 @@ export const RESUME_DATA_EN = {
     {
       title: "Customer Portal",
       date: "2022",
-      techStack: ["CI&T (RHIM)", "React", ".NET Core"],
+      techStack: ["CI&T (RHIM)", "React", ".NET Core", "Azure AD"],
       description:
         "Fullstack development of a Customer Portal for a refractory company.",
     },
